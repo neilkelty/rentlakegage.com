@@ -1,0 +1,119 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Arial, "Times";
+}
+
+#header {
+	background: url(images/logo.gif) #162D49 no-repeat;
+	height: 197px;
+	width: 150px;
+	float: left;
+}
+
+h1 {
+	display:none;
+}
+
+body {
+	background: url(images/background.gif) #162D49;
+	padding: 10px;
+
+}
+
+#content {
+	/* Orginal Background Color
+		background: #1C3A5E;
+	*/
+	background: #FFF;
+	float: left;
+	margin: 0px 5px 8px 5px;
+	border: 8px solid #1D67AB;
+width: 440px;
+}
+
+#content .gutter {
+	padding: 8px 5px;
+}
+
+#contact_form .gutter{
+	padding: 10px;
+}
+
+#content img {
+	border: 1px solid #000;
+}
+
+.center {
+	text-align: center;
+}
+
+#footer {
+	border-top: 1px solid #CCC;
+	padding-top: 5px;
+	margin: 0 5px;
+	color: #444;
+	text-align: center;
+	clear: both;
+}
+
+#content p{
+	font-size: .8em;
+	line-height: 150%;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+#contact_form p {
+	font-size: .8em;
+	line-height: 120%;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+#contact_form ul{
+	margin-left: 25px;
+	font-size: .8em;
+	margin-bottom: 5px;
+	line-height: 130%;
+}
+
+#content h3, #contact_form h3{
+	color: #1D67AB;
+	padding: 5px 0;
+}
+
+#content .info_box{
+	padding: 10px;
+	color: #222;
+	background: #FFF;
+	width: 388px;
+	margin: auto;
+	margin-top: -5px;
+}
+
+#content h2, #contact_form h2 {
+	margin-bottom: 10px;
+	/* color: #BC8138; */
+	color: #1C3A5E;
+	text-align: center;
+}
+
+#contact_form {
+	float: left;
+	width: 280px;
+	background: #fff;
+	float: left;
+	margin: 0px 5px 8px 5px;
+	border: 8px solid #1D67AB;
+}
+
+.thumbnail{
+	float: left;
+	margin: 5px;
+}
+
+#content .thumbnail img{
+	border: 3px solid #1D67AB;
+	width: 110px;
+}
